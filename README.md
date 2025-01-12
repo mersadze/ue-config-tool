@@ -91,4 +91,3 @@ If you encounter any bugs or have feature requests, please open an issue on the 
 
 ### Contact
 For questions or suggestions, reach out [GitHub](https://github.com/mersadze).
-```

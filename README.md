@@ -46,6 +46,7 @@ python main.py
 [CONFIG] default - Type the section name to open it
 ==========================================
 ID    Section Name                
+------------------------------------------
 [0]   ActionMappings             
 [1]   AxisMappings               
 ==========================================

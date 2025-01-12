@@ -37,7 +37,6 @@ python main.py
 - **View Config Sections**: Lists all available sections from the config file.
 - **Open Section**: Enter the section name or index to view its keys and values.
 - **Edit Key-Value Pairs**: Follow on-screen instructions to modify specific keys.
-- **Exit Tool**: Type `exit` at any menu to quit.
 
 ---
 

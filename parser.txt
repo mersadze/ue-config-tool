@@ -1,0 +1,32 @@
+Unreal Engine 4 Config Parser
+
+UE4 configuration parsing and patching.
+
+How it works:
+    - parser library:
+        - takes .ini file as input
+        - analyzes file structure and contents
+        - allows you to modify values for each unique key
+        - supports visual output for clear overview of the configuration contents
+        - once modifications are done, it creates a patch file and install in game files
+            [Creating patch]:
+                - creating directory structure from "/data/path.txt" contents
+                - dropping altered configuration files inside the created directory structure
+                - using unrealpak to create .pak file
+                - dropping .pak file inside game's pak directory (default is in "data/pakPath.txt" but it varies on game so it can be altered)
+
+
+Using:
+
+1. You should have extracted config files ready, drop them in the "data/configs" folder.
+    Note: I'm working on config-only extractor for .pak files and will be added to next releases
+
+2. Run "main.py", it will open a terminal where you can navigate to the config file
+
+3. From the configuration menu, you can alter the values in different formats, they are boolean, float, int, keybind values usually.
+
+4. After altering the config, go to the interface menu and confirm changes
+
+5. Once changes are confirmed, it will ask you if you want to install the changes
+
+6. Further confirmation will patch game files and game will run with modified configuration
